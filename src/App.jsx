@@ -422,7 +422,7 @@ export default function App() {
           <Reveal delay={100}>
             <div className="group aspect-[4/5] rounded-3xl bg-gradient-to-br from-orange-500 via-rose-600 to-purple-700 p-8 flex flex-col justify-between text-white overflow-hidden relative cursor-default hover:scale-[1.02] transition-transform duration-500">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.2),transparent_60%)]"></div>
-              <Gamepad2 className="w-12 h-12 relative" strokeWidth={1.5} />
+              <div className="text-5xl relative leading-none">🎮</div>
               <div className="relative">
                 <div className="text-xs tracking-widest uppercase opacity-70 mb-2">Gaming</div>
                 <h3 className="text-3xl font-bold tracking-tightest leading-none mb-3">Warzone & NBA 2K</h3>
@@ -437,12 +437,12 @@ export default function App() {
               className="group aspect-[4/5] rounded-3xl bg-gradient-to-br from-neutral-900 via-zinc-900 to-stone-800 p-8 flex flex-col justify-between text-white overflow-hidden relative cursor-pointer hover:scale-[1.02] transition-transform duration-500">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(220,38,38,0.25),transparent_60%)]"></div>
               <div className="flex items-start justify-between relative">
-                <Film className="w-12 h-12" strokeWidth={1.5} />
+                <div className="text-5xl leading-none">🎬</div>
                 <ArrowUpRight className="w-5 h-5 opacity-50 group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
               </div>
               <div className="relative">
                 <div className="text-xs tracking-widest uppercase opacity-70 mb-2">Cinéma · Letterboxd</div>
-                <h3 className="text-3xl font-bold tracking-tightest leading-none mb-3">Cinématographie</h3>
+                <h3 className="text-3xl font-bold tracking-tightest leading-none mb-3">Films et séries</h3>
                 <p className="text-sm opacity-80 leading-relaxed">Du blockbuster au film d'auteur, je tiens mon journal cinéma sur Letterboxd. Voir mon profil →</p>
               </div>
             </a>
