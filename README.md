@@ -6,7 +6,7 @@ Site en ligne : https://teddvv.github.io/portfolio/
 
 ## Stack
 
-React + Vite + Tailwind. C'est tout.
+React + Vite + Tailwind
 
 ## Lancer en local
 
